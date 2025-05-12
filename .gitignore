@@ -91,3 +91,4 @@ build/feed
 .dotnet/
 *.log.txt
 /README.md.bak
+*.bak

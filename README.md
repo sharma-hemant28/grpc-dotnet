@@ -1,5 +1,5 @@
 # grpc-dotnet
-Sample project demonstrating gRPC with ASP.NET Core and .NET 8. Includes a gRPC server and client, Protobuf service definitions, and examples of unary and streaming RPCs. Follows clean architecture and modern .NET development practices.
+Sample project demonstrating gRPC with ASP.NET Core and .NET 9. Includes a gRPC server and client, Protobuf service definitions, and examples of unary and streaming RPCs. Follows clean architecture and modern .NET development practices.
 
 ## 📦 Features
 
@@ -14,22 +14,22 @@ Sample project demonstrating gRPC with ASP.NET Core and .NET 8. Includes a gRPC 
 
 ### Prerequisites
 
-- [.NET 8 SDK](https://dotnet.microsoft.com/download)
+- [.NET 9 SDK](https://dotnet.microsoft.com/download)
 - [Docker](https://www.docker.com/) (optional for containerized setup)
 
 ### Running the Server
 
 ```bash
-cd GrpcServer
+cd GrpcGreeter
 dotnet run
 
 Running the Client
-cd GrpcClient
+cd GrpcGreeterClient
 dotnet run
 
 🛠 Project Structure
 grpc-dotnet/
 │
-├── GrpcServer/       # gRPC Server implementation
-├── GrpcClient/       # gRPC Client implementation
-└── Protos/           # .proto files
+├── GrpcGreeter/       	# gRPC Server implementation
+├── GrpcGreeterClient/	# gRPC Client implementation
+└── Protos/           	# .proto files

@@ -1,0 +1,92 @@
+## Ignore Visual Studio temporary files, build results, and
+## user-specific files
+
+# Build results
+bin/
+obj/
+out/
+/.vs
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Rider project files
+.idea/
+
+# VS Code settings
+.vscode/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Publish output
+**/publish/
+
+# Dotnet CLI working folder
+artifacts/
+
+# NuGet Packages
+*.nupkg
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Logs
+*.log
+
+# Resharper
+*.DotSettings.user
+
+# Protobuf generated files (optional – only if they're regenerated on build)
+# Remove these lines if you check in generated C# files
+**/*.pb.cs
+**/*.grpc.cs
+
+
+[Oo]bj/
+[Bb]in/
+TestResults/
+.nuget/
+*.sln.ide/
+_ReSharper.*/
+.idea/
+packages/
+artifacts/
+PublishProfiles/
+.vs/
+*.user
+*.suo
+*.cache
+*.docstates
+_ReSharper.*
+nuget.exe
+*net45.csproj
+*net451.csproj
+*k10.csproj
+*.psess
+*.vsp
+*.pidb
+*.userprefs
+*DS_Store
+*.ncrunchsolution
+*.*sdf
+*.ipch
+*.swp
+*~
+.build/
+.testPublish/
+BenchmarkDotNet.Artifacts/
+BDN.Generated/
+binaries/
+.vscode/
+*.binlog
+build/feed
+.dotnet/
+*.log.txt
